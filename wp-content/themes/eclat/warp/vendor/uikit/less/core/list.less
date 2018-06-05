@@ -1,0 +1,195 @@
+// Name:            List
+// Description:     Defines styles for ordered and unordered lists
+//
+// Component:       `uk-list`
+//
+// Modifiers:       `uk-list-line`
+//                  `uk-list-striped`
+//                  `uk-list-space`
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@list-nested-padding-left:                      20px;
+
+@list-line-margin-top:                          5px;
+@list-line-border:                              #ddd;
+@list-line-border-width:                        1px;
+
+@list-striped-padding-vertical:                 5px;
+@list-striped-padding-horizontal:               5px;
+@list-striped-background:                       #f5f5f5;
+
+@list-space-margin-top:                         10px;
+
+@list-style-margin-top:                         20px;
+@list-style-padding-left:                       45px;
+@list-style-default-color:                      #e6e6e6;
+@list-style-primary-color:                      #333333;
+
+
+
+
+/* ========================================================================
+   Component: List
+ ========================================================================== */
+
+.uk-list {
+    padding: 0;
+    list-style: none;
+}
+
+/*
+ * Micro clearfix to make list more robust
+ */
+
+.uk-list > li:before,
+.uk-list > li:after {
+    content: "";
+    display: table;
+}
+
+.uk-list > li:after { clear: both; }
+
+/*
+ * Remove margin from the last-child
+ */
+
+.uk-list > li > :last-child { margin-bottom: 0; }
+
+/*
+ * Nested lists
+ */
+
+.uk-list ul {
+    margin: 0;
+    padding-left: @list-nested-padding-left;
+    list-style: none;
+}
+
+
+/* Modifier: `uk-list-line`
+ ========================================================================== */
+
+.uk-list-line > li:nth-child(n+2) {
+    margin-top: @list-line-margin-top;
+    padding-top: @list-line-margin-top;
+    border-top: @list-line-border-width solid @list-line-border;
+    .hook-list-line;
+}
+
+
+/* Modifier: `uk-list-striped`
+ ========================================================================== */
+
+.uk-list-striped > li {
+    padding: @list-striped-padding-vertical @list-striped-padding-horizontal;
+    .hook-list-striped;
+}
+
+.uk-list-striped > li:nth-of-type(odd) { background: @list-striped-background; }
+
+
+/* Modifier: `uk-list-space`
+ ========================================================================== */
+
+.uk-list-space > li:nth-child(n+2) { margin-top: @list-space-margin-top; }
+
+
+/* Modifier: `uk-list-space`
+ ========================================================================== */
+
+.uk-list-styles { padding: 0 }
+
+.uk-list-styles,
+.uk-list-styles ul {
+    margin-top: @list-style-margin-top;
+    list-style: none;
+}
+
+.uk-list-styles ul { padding-left: @list-style-padding-left; }
+
+.uk-list-styles li {
+    margin-bottom: @list-style-margin-top;
+    padding-left: @list-style-padding-left;
+    position: relative;
+}
+
+.uk-list-styles li:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 10px;
+    width: 12px;
+    height: 12px;
+}
+
+.uk-list-styles.uk-circle-list li:after {
+    border: 3px solid @list-style-default-color;
+    width: 6px;
+    height: 6px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.uk-list-styles.uk-circle-primary-list li:after {
+    background: @list-style-primary-color;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.uk-list-styles.uk-check-list li:after,
+.uk-list-styles.uk-check-primary-list li:after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    top: 0;
+}
+
+.uk-list-styles.uk-check-list li:after { color: @list-style-default-color; }
+
+.uk-list-styles.uk-check-primary-list li:after { color: @list-style-primary-color; }
+
+ol.uk-list-styles,
+.uk-list-styles ol { counter-reset: point; }
+
+ol.uk-list-styles li:after {
+    content: counter(point, decimal);
+    counter-increment: point 1;
+    font-size: 14px;
+    left: 3px;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    border: 3px solid @list-style-default-color;
+}
+
+ol.uk-list-styles.uk-round-list li:after,
+ol.uk-list-styles.uk-round-primary-list li:after {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+ol.uk-list-styles.uk-square-primary-list li:after,
+ol.uk-list-styles.uk-round-primary-list li:after { border-color: @list-style-primary-color }
+
+
+// Hooks
+// ========================================================================
+
+.hook-list-misc;
+
+.hook-list-line() {}
+.hook-list-striped() {}
+.hook-list-misc() {}

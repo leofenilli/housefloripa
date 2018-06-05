@@ -1,0 +1,185 @@
+/* Copyright (C) Elartica Team, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Component:        WordPress
+ * Description:      Defines Visual Composer specific styles for the Warp admininistration
+ ========================================================================== */
+
+/* google_map */
+.wpb-content-layouts .wpb-layout-element-button .google_map,
+.wpb_google_map.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_google_map[data-element_type=google_map]
+{
+    background-image: url(../images/visual_composer/google_maps.png);
+}
+
+/* testimonials */
+.wpb-content-layouts .wpb-layout-element-button .eclat_testimonials,
+.wpb_eclat_testimonials.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_eclat_testimonials[data-element_type=eclat_testimonials]
+{
+    background-image: url(../images/visual_composer/testimonials.png);
+}
+
+/* testimonials_slider */
+.wpb-content-layouts .wpb-layout-element-button .eclat_testimonials_slider,
+.wpb_eclat_testimonials_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_eclat_testimonials_slider[data-element_type=eclat_testimonials_slider]
+{
+    background-image: url(../images/visual_composer/testimonials_slider.png);
+}
+
+/* icon_box */
+.wpb-content-layouts .wpb-layout-element-button .icon_box,
+.wpb_icon_box.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_icon_box[data-element_type=icon_box]
+{
+    background-image: url(../images/visual_composer/icon_box.png);
+}
+
+/* info_box */
+.wpb-content-layouts .wpb-layout-element-button .info_box,
+.wpb_info_box.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_info_box[data-element_type=info_box]
+{
+    background-image: url(../images/visual_composer/info_box.png);
+}
+
+/* alert_box */
+.wpb-content-layouts .wpb-layout-element-button .alert_box,
+.wpb_alert_box.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_alert_box[data-element_type=alert_box]
+{
+    background-image: url(../images/visual_composer/alert_box.png);
+}
+
+/* banner */
+.wpb-content-layouts .wpb-layout-element-button .banner,
+.wpb_banner.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_banner[data-element_type=banner]
+{
+    background-image: url(../images/visual_composer/banners.png);
+}
+
+/* last_tweets */
+.wpb-content-layouts .wpb-layout-element-button .last_tweets,
+.wpb_last_tweets.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_last_tweets[data-element_type=last_tweets]
+{
+    background-image: url(../images/visual_composer/twitter.png);
+}
+
+/* recent_blog_posts */
+.wpb-content-layouts .wpb-layout-element-button .recent_blog_posts,
+.wpb_recent_blog_posts.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_recent_blog_posts[data-element_type=recent_blog_posts]
+{
+    background-image: url(../images/visual_composer/recent_blog_post.png);
+}
+
+/* time_line */
+.wpb-content-layouts .wpb-layout-element-button .eclat_timeline,
+.wpb_eclat_timeline.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_eclat_timeline[data-element_type=eclat_timeline]
+{
+    background-image: url(../images/visual_composer/time_line.png);
+}
+
+/* best_selling_products_slider */
+.wpb-content-layouts .wpb-layout-element-button .best_selling_products_slider,
+.wpb_best_selling_products_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_best_selling_products_slider[data-element_type=best_selling_products_slider]
+{
+    background-image: url(../images/visual_composer/best_selling_products_slider.png);
+}
+
+/* recent_products_slider */
+.wpb-content-layouts .wpb-layout-element-button .recent_products_slider,
+.wpb_recent_products_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_recent_products_slider[data-element_type=recent_products_slider]
+{
+    background-image: url(../images/visual_composer/recent_products_slider.png);
+}
+
+
+/* featured_products_slider */
+.wpb-content-layouts .wpb-layout-element-button .featured_products_slider,
+.wpb_featured_products_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_featured_products_slider[data-element_type=featured_products_slider]
+{
+    background-image: url(../images/visual_composer/featured_products_slider.png);
+}
+
+/* sale_products_slider */
+.wpb-content-layouts .wpb-layout-element-button .sale_products_slider,
+.wpb_sale_products_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_sale_products_slider[data-element_type=sale_products_slider]
+{
+    background-image: url(../images/visual_composer/sale_products_slider.png);
+}
+
+/* top_rated_products_slider */
+.wpb-content-layouts .wpb-layout-element-button .top_rated_products_slider,
+.wpb_top_rated_products_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_top_rated_products_slider[data-element_type=top_rated_products_slider]
+{
+    background-image: url(../images/visual_composer/top_rated_products_slider.png);
+}
+
+/* product_categories_slider */
+.wpb-content-layouts .wpb-layout-element-button .product_categories_slider,
+.wpb_product_categories_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_product_categories_slider[data-element_type=product_categories_slider]
+{
+    background-image: url(../images/visual_composer/product_categories_slider.png);
+}
+
+/* portfolio */
+.wpb-content-layouts .wpb-layout-element-button .eclat_portfolio,
+.wpb_eclat_portfolio.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_eclat_portfolio[data-element_type=eclat_portfolio]
+{
+    background-image: url(../images/visual_composer/portfolio.png);
+}
+
+/* button */
+.wpb-content-layouts .wpb-layout-element-button .eclat_button,
+.wpb_eclat_button.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_eclat_button[data-element_type=eclat_button]
+{
+    background-image: url(../images/visual_composer/button.png);
+}
+
+/* list styles */
+.wpb-content-layouts .wpb-layout-element-button .list_styles,
+.wpb_list_styles.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_list_styles[data-element_type=list_styles]
+{
+    background-image: url(../images/visual_composer/list_styles.png);
+}
+
+/* product categories */
+.wpb-content-layouts .wpb-layout-element-button .product_categories_grid,
+.wpb_product_categories_grid.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_product_categories_grid[data-element_type=product_categories_grid]
+{
+    background-image: url(../images/visual_composer/product_categories.png);
+}
+
+/* team member */
+.wpb-content-layouts .wpb-layout-element-button .team_member,
+.wpb_team_member.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_team_member[data-element_type=team_member]
+{
+    background-image: url(../images/visual_composer/team_member.png);
+}
+
+/* product slider */
+.wpb-content-layouts .wpb-layout-element-button .wc_product_slider,
+.wpb_wc_product_slider.wpb_content_element .wpb_element_wrapper .vc_element-icon,
+.wpb_wc_product_slider[data-element_type=wc_product_slider]
+{
+    background-image: url(../images/visual_composer/deal_of_the_day_slider.png);
+}
+
+

@@ -1,0 +1,21 @@
+/**
+ * Theme Name: Flávia Tronca
+ * Theme URI: http://flaviatronca.com
+ * Version: 1.0.6
+ * Author: Flávia Tronca
+ * Author URI: http://flaviatronca.com
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+ * Text Domain: eclat
+ */
+.tm-footer {
+    background: #7d7d7d !important;
+}
+
+.tm-footer .uk-panel, .tm-footer .uk-panel .uk-nav li a, .tm-footer .uk-panel h3  {
+    color: #ffffff !important;
+}
+
+.woocommerce div.product form.cart div.quantity, .woocommerce-page div.product form.cart div.quantity, .woocommerce #content div.product form.cart div.quantity, .woocommerce-page #content div.product form.cart div.quantity {
+    display: none !important;
+}

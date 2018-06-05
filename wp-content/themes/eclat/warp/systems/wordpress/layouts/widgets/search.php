@@ -1,0 +1,3 @@
+<form class="uk-search" id="<?php echo $widget->id; ?>" action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get" <?php if($widget->position !== 'offcanvas'):?>data-uk-search="{'source': '<?php echo site_url('wp-admin'); ?>/admin-ajax.php?action=warp_search', 'param': 's', 'msgResultsHeader': '<?php esc_html_e("Search Results", "eclat"); ?>', 'msgMoreResults': '<?php esc_html_e("More Results", "eclat"); ?>', 'msgNoResults': '<?php esc_html_e("No results found", "eclat"); ?>', flipDropdown: 1}"<?php endif;?>>
+    <input class="uk-search-field" type="text" value="" name="s" placeholder="<?php esc_html_e('search...', 'eclat'); ?>">
+</form>

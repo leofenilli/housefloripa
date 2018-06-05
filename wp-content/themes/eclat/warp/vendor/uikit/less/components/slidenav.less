@@ -1,0 +1,291 @@
+// Name:            Slidenav
+// Description:     Defines styles for a previous/next navigation between slides
+//
+// Component:       `uk-slidenav`
+//
+// Modifiers:       `uk-slidenav-previous`
+//                  `uk-slidenav-next`
+//                  `uk-slidenav-contrast`
+//
+// Sub-objects:     `uk-slidenav-position`
+//
+// Uses:            Icon: FontAwesome
+//
+// Markup:
+//
+// <!-- uk-slidenav -->
+// <a href="" class="uk-slidenav uk-slidenav-previous"></a>
+// <a href="" class="uk-slidenav uk-slidenav-next"></a>
+//
+// <!-- uk-slidenav-position -->
+// <div class="uk-slidenav-position">
+//     <img src="" alt="">
+//     <a href="" class="uk-slidenav uk-slidenav-previous"></a>
+//     <a href="" class="uk-slidenav uk-slidenav-next"></a>
+// </div>
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@slidenav-width:                                60px;
+@slidenav-height:                               @slidenav-width;
+@slidenav-color:                                rgba(50,50,50,0.4);
+@slidenav-font-size:                            60px;
+@slidenav-line-height:                          @slidenav-height;
+@slidenav-previous-icon:                        "\f104";
+@slidenav-next-icon:                            "\f105";
+
+@slidenav-hover-color:                          rgba(50,50,50,0.7);
+
+@slidenav-active-color:                         rgba(50,50,50,0.9);
+
+@slidenav-position-previous:                    20px;
+@slidenav-position-next:                        @slidenav-position-previous;
+
+@slidenav-contrast-color:                       rgba(255,255,255,0.7);
+@slidenav-contrast-hover-color:                 rgba(255,255,255,1);
+@slidenav-contrast-active-color:                rgba(255,255,255,1);
+
+
+/* ========================================================================
+   Component: Slidenav
+ ========================================================================== */
+
+/*
+ * 1. Required for `a` elements
+ * 2. Dimension
+ * 3. Style
+ */
+
+.uk-slidenav {
+    /* 1 */
+    display: inline-block;
+    /* 2 */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: @slidenav-width;
+    height: @slidenav-height;
+    /* 3 */
+    line-height: @slidenav-line-height;
+    color: @slidenav-color;
+    font-size: @slidenav-font-size;
+    text-align: center;
+    .hook-slidenav;
+}
+
+.uk-slidenav-arrow {
+    display: block;
+    overflow: hidden;
+    width: @slidenav-width - 15;
+    height: @slidenav-height - 15;
+    border: 3px solid @global-icon-border;
+    font-size: 20px;
+    text-align: center;
+    line-height: @slidenav-height - 15;
+    position: absolute;
+    top: 40%;
+    margin: -23px 0 0 0;
+  color: @global-link-color;
+}
+
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ * 3. Required for `a` elements
+ * 4. Style
+ */
+
+.uk-slidenav:hover,
+.uk-slidenav:focus { // 1
+    /* 2 */
+    outline: none;
+    /* 3 */
+    text-decoration: none;
+    /* 4 */
+    color: @slidenav-hover-color;
+    cursor: pointer;
+    .hook-slidenav-hover;
+}
+
+.uk-slidenav-arrow:hover {
+    border: 3px solid @icon-button-hover-color;
+    color: @global-link-color;
+}
+
+/* Active */
+.uk-slidenav:active {
+    color: @slidenav-active-color;
+    .hook-slidenav-active;
+}
+
+/*
+ * Icons
+ */
+
+.uk-slidenav-previous:before {
+    content: @slidenav-previous-icon;
+    font-family: FontAwesome;
+}
+
+.uk-slidenav-next:before {
+    content: @slidenav-next-icon;
+    font-family: FontAwesome;
+}
+
+.uk-slidenav-arrow-previous { left: 15px; }
+
+.uk-slidenav-arrow-next { right: 15px; }
+
+.uk-slidenav-arrow-previous:before,
+.uk-slidenav-arrow-previous:after,
+.uk-slidenav-arrow-next:before,
+.uk-slidenav-arrow-next:after {
+    font-family: eclatico;
+    display: block;
+    width: @slidenav-width - 15;
+    height: @slidenav-height - 15;
+    font-size: 20px;
+    text-align: center;
+    line-height: @slidenav-height - 15;
+    position: absolute;
+    top: 0;
+    transition: left 0.2s ease, opacity 0.05s ease-out;
+    -moz-transition: left 0.2s ease, opacity 0.05s ease-out;
+    -o-transition: left 0.2s ease, opacity 0.05s ease-out;
+    -webkit-transition: left 0.2s ease, opacity 0.05s ease-out;
+}
+
+.uk-slidenav-arrow-previous:before,
+.uk-slidenav-arrow-previous:after {
+    content: "\e609";
+}
+
+.uk-slidenav-arrow-next:before,
+.uk-slidenav-arrow-next:after {
+    content: "\e608";
+}
+
+.uk-slidenav-arrow:before {
+    left: 0;
+    opacity: 1;
+}
+
+.uk-slidenav-arrow-previous:after,
+.uk-slidenav-arrow-next:hover:before {
+    left: @slidenav-width;
+    opacity: 0;
+}
+
+.uk-slidenav-arrow-next:after,
+.uk-slidenav-arrow-previous:hover:before {
+    left: -@slidenav-width;
+    opacity: 0;
+}
+
+.uk-slidenav-arrow:hover:after {
+    left: 0 !important;
+    opacity: 1;
+}
+
+@media (min-width: @breakpoint-xlarge) {
+  .uk-slidenav-arrow-previous { left: -95px; }
+
+  .uk-slidenav-arrow-next { right: -95px; }
+}
+
+
+/* Sub-object: `uk-slidenav-position`
+ ========================================================================== */
+
+/*
+ * Create position context
+ */
+
+.uk-slidenav-position { position: relative; }
+
+/*
+ * Center vertically
+ */
+
+.uk-slidenav-position .uk-slidenav {
+    display: none;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    margin-top: -(@slidenav-height / 2);
+}
+
+.uk-slidenav-position:hover .uk-slidenav { display: block; }
+
+.uk-slidenav-position .uk-slidenav-previous { left: @slidenav-position-previous; }
+.uk-slidenav-position .uk-slidenav-next { right: @slidenav-position-next; }
+
+
+/* Modifier: `uk-slidenav-contrast`
+ ========================================================================== */
+
+.uk-slidenav-contrast {
+    color: @slidenav-contrast-color;
+    .hook-slidenav-contrast;
+}
+
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ */
+
+.uk-slidenav-contrast:hover,
+.uk-slidenav-contrast:focus { // 1
+    color: @slidenav-contrast-hover-color;
+    .hook-slidenav-contrast-hover;
+}
+
+/* Active */
+.uk-slidenav-contrast:active {
+    color: @slidenav-contrast-active-color;
+    .hook-slidenav-contrast-active;
+}
+
+
+/* Modifier: `uk-lightbox-content`
+ ========================================================================== */
+.uk-lightbox-content { overflow: hidden }
+
+.uk-lightbox-content .uk-slidenav {
+    background: @global-muted-color;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.uk-lightbox-content .uk-slidenav-previous { left: 0; }
+.uk-lightbox-content .uk-slidenav-next { right: 0; }
+
+.uk-lightbox-content:hover .uk-slidenav-previous,
+.uk-lightbox-content:hover .uk-slidenav-next { opacity: 1; }
+
+
+// Hooks
+// ========================================================================
+
+.hook-slidenav-misc;
+
+.hook-slidenav() {}
+.hook-slidenav-hover() {}
+.hook-slidenav-active() {}
+.hook-slidenav-contrast() {}
+.hook-slidenav-contrast-hover() {}
+.hook-slidenav-contrast-active() {}
+.hook-slidenav-misc() {}

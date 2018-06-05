@@ -1,0 +1,259 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.6
+* STEP-1 START @ 02:00:00
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.1.17 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.33 (Win32) OpenSSL/1.0.2o PHP/7.1.17
+DOC ROOT:	C:/xampp2/htdocs/flavia
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/flavia/installer-backup.php
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20170428_flaviatronca_61d6cc90cfff6b0c2527170428160958_archive.zip
+SIZE:	340.96MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 18776
+    [filename] => C:\xampp2\htdocs\flavia\20170428_flaviatronca_61d6cc90cfff6b0c2527170428160958_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2018-05-23 14:03:16
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.180523140316.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 02:03:16 - RUNTIME: 195.8283 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 02:03:51
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.32 -- Build Server: 5.7.11
+FILE SIZE:	database.sql (6.28MB) - installer-data.sql (6.28MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp2/htdocs/flavia/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	64
+QUERIES RAN:	26243
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (1)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (63)
+wp_icl_languages: (63)
+wp_icl_languages_translations: (3969)
+wp_icl_locale_map: (2)
+wp_icl_message_status: (0)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_packages: (3)
+wp_icl_string_pages: (66)
+wp_icl_string_positions: (520)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (127)
+wp_icl_string_urls: (9)
+wp_icl_strings: (14766)
+wp_icl_translate: (33)
+wp_icl_translate_job: (4)
+wp_icl_translation_batches: (4)
+wp_icl_translation_status: (2)
+wp_icl_translations: (681)
+wp_itsec_lockouts: (0)
+wp_itsec_log: (0)
+wp_itsec_temp: (0)
+wp_links: (0)
+wp_newsletter: (0)
+wp_newsletter_emails: (0)
+wp_newsletter_sent: (0)
+wp_newsletter_stats: (0)
+wp_options: (711)
+wp_postmeta: (3665)
+wp_posts: (631)
+wp_revslider_css: (116)
+wp_revslider_layer_animations: (0)
+wp_revslider_navigations: (0)
+wp_revslider_settings: (1)
+wp_revslider_sliders: (2)
+wp_revslider_slides: (9)
+wp_revslider_static_slides: (1)
+wp_term_relationships: (203)
+wp_term_taxonomy: (52)
+wp_termmeta: (103)
+wp_terms: (52)
+wp_usermeta: (95)
+wp_users: (1)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (1)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (188)
+wp_woocommerce_order_items: (26)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (3)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wsluserscontacts: (0)
+wp_wslusersprofiles: (0)
+
+Removed '179' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 30.3625 sec.
+STEP-2 COMPLETE @ 02:04:38 - RUNTIME: 47.0651 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 02:04:46
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_duplicator_packages^ (0)
+wp_icl_content_status^ (0)
+wp_icl_core_status^ (0)
+wp_icl_flags~ (63)
+wp_icl_languages~ (63)
+wp_icl_languages_translations~ (3969)
+wp_icl_locale_map~ (2)
+wp_icl_message_status^ (0)
+wp_icl_node^ (0)
+wp_icl_reminders^ (0)
+wp_icl_string_packages~ (3)
+wp_icl_string_pages~ (66)
+wp_icl_string_positions~ (520)
+wp_icl_string_status^ (0)
+wp_icl_string_translations~ (127)
+wp_icl_string_urls~ (9)
+wp_icl_strings~ (14766)
+wp_icl_translate~ (33)
+wp_icl_translate_job~ (4)
+wp_icl_translation_batches~ (4)
+wp_icl_translation_status~ (2)
+wp_icl_translations~ (681)
+wp_itsec_lockouts^ (0)
+wp_itsec_log^ (0)
+wp_itsec_temp^ (0)
+wp_links^ (0)
+wp_newsletter^ (0)
+wp_newsletter_emails^ (0)
+wp_newsletter_sent^ (0)
+wp_newsletter_stats^ (0)
+wp_options~ (530)
+wp_postmeta~ (3665)
+wp_posts~ (631)
+wp_revslider_css~ (116)
+wp_revslider_layer_animations^ (0)
+wp_revslider_navigations^ (0)
+wp_revslider_settings~ (1)
+wp_revslider_sliders~ (2)
+wp_revslider_slides~ (9)
+wp_revslider_static_slides~ (1)
+wp_term_relationships~ (203)
+wp_term_taxonomy~ (52)
+wp_termmeta~ (103)
+wp_terms~ (52)
+wp_usermeta~ (95)
+wp_users~ (1)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies~ (1)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta~ (188)
+wp_woocommerce_order_items~ (26)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (1)
+wp_woocommerce_shipping_zone_locations~ (1)
+wp_woocommerce_shipping_zone_methods~ (3)
+wp_woocommerce_shipping_zones~ (1)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_wsluserscontacts^ (0)
+wp_wslusersprofiles^ (0)
+--------------------------------------
+Search1:	'http://localhost/ft5' 
+Change1:	'http://localhost/flavia' 
+Search2:	'D:/Server/www/ft5' 
+Change2:	'C:/xampp2/htdocs/flavia' 
+Search3:	'http:\/\/localhost\/ft5' 
+Change3:	'http:\/\/localhost\/flavia' 
+Search4:	'D:\/Server\/www\/ft5' 
+Change4:	'C:\/xampp2\/htdocs\/flavia' 
+Search5:	'D%3A%2FServer%2Fwww%2Fft5%2F' 
+Change5:	'C%3A%2Fxampp2%2Fhtdocs%2Fflavia%2F' 
+Search6:	'http%3A%2F%2Flocalhost%2Fft5' 
+Change6:	'http%3A%2F%2Flocalhost%2Fflavia' 
+Search7:	'D:\Server\www\ft5' 
+Change7:	'C:/xampp2/htdocs/flavia' 
+SCANNED:	Tables:64 	|	 Rows:25995 	|	 Cells:221915 
+UPDATED:	Tables:2 	|	 Rows:648 	|	 Cells:654 
+ERRORS:		1 
+RUNTIME:	9.618800 sec
+--------------------------------------
+DATA-REPLACE ERRORS (Serialization):
+SELECT translation_package, _prevstate FROM `wp_icl_translation_status`  WHERE rid = "1";
+
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 02:04:57 - RUNTIME: 10.1079 sec.
+
+

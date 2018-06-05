@@ -1,0 +1,257 @@
+// Name:            Pagination
+// Description:     Defines styles for a navigation between pages
+//
+// Component:       `uk-pagination`
+//
+// Sub-objects:     `uk-pagination-previous`
+//                  `uk-pagination-next`
+//
+// Modifiers:       `uk-pagination-left`
+//                  `uk-pagination-right`
+//
+// States:          `uk-active`
+//                  `uk-disabled`
+//
+// Markup:
+//
+// <!-- uk-pagination -->
+// <ul class="uk-pagination">
+//     <li class="uk-active"><span></span></li>
+//     <li><a href=""></a></li>
+// </ul>
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@pagination-font-size:                          1rem;
+@pagination-margin-left:                        0;
+@pagination-padding-vertical:                   3px;
+@pagination-padding-horizontal:                 5px;
+@pagination-line-height:                        40px;
+@pagination-background:                         none;
+@pagination-color:                              #1a1a1a;
+@pagination-border:                             #fff;
+@pagination-hover-background:                   none;
+@pagination-hover-border:                       none;
+@pagination-hover-color:                        #1a1a1a;
+@pagination-onclick-background:                 none;
+@pagination-onclick-border:                     none;
+@pagination-onclick-color:                      #1a1a1a;
+
+@pagination-active-background:                  none;
+@pagination-active-border:                      @global-icon-border;
+@pagination-active-color:                       #1a1a1a;
+
+@pagination-disabled-background:                none;
+@pagination-disabled-border:                    none;
+@pagination-disabled-color:                     #999;
+
+
+/* ========================================================================
+   Component: Pagination
+ ========================================================================== */
+
+/*
+ * 1. Remove default list style
+ * 2. Center pagination by default
+ * 3. Remove whitespace between child elements when using `inline-block`
+ */
+
+.uk-pagination {
+    /* 1 */
+    padding: 0;
+    margin: @pagination-margin;
+    position: relative;
+    list-style: none;
+    /* 2 */
+    text-align: left;
+    /* 3 */
+    font-size: 0.001px;
+    border: 1px solid @global-border;
+    border-right: 0;
+    height: @pagination-line-height + 5;
+}
+
+/*
+ * Micro clearfix
+ * Needed if `uk-pagination-previous` or `uk-pagination-next` sub-objects are used
+ */
+
+.uk-pagination:before,
+.uk-pagination:after {
+    content: "";
+    display: table;
+}
+
+.uk-pagination:after { clear: both; }
+
+
+/* Items
+ ========================================================================== */
+
+/*
+ * 1. Reset whitespace hack
+ * 2. Remove the gap at the bottom of it container
+ */
+
+.uk-pagination > li {
+    display: inline-block;
+    position: relative;
+    /* 1 */
+    font-size: @pagination-font-size;
+    /* 2 */
+    vertical-align: top;
+}
+
+.uk-pagination > li:nth-child(n+2) { margin-left: @pagination-margin-left; }
+
+.uk-pagination li.next_page,
+.uk-pagination li.prev_page {
+    float: right;
+}
+.uk-pagination li.next_page:after,
+.uk-pagination li.prev_page:after,
+.uk-pagination li.uk-active:after,
+.uk-pagination li.page_num:after {
+    border: 3px solid @global-icon-border;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 104%;
+    height: 104%;
+    margin: -1px;
+    box-sizing: border-box;
+    transition: border 0.5s ease;
+    -moz-transition: border 0.5s ease;
+    -o-transition: border 0.5s ease;
+    -webkit-transition: border 0.5s ease;
+}
+
+.uk-pagination li.next_page:hover:after,
+.uk-pagination li.prev_page:hover:after {
+    border: 3px solid @icon-button-hover-color;
+    z-index: 2;
+}
+.uk-pagination li.next_page + li.prev_page {
+    margin: 0 -1px 0 0;
+}
+.uk-pagination li.page_num:after {
+    opacity: 0;
+    border: 3px solid @icon-button-hover-color;
+    transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+}
+.uk-pagination li.page_num:hover:after {
+    opacity: 1;
+    z-index: 2;
+}
+
+/*
+ * 1. Makes pagination more robust against different box-sizing use
+ * 2. Reset text-align to center if alignment modifier is used
+ */
+
+.uk-pagination > li > a,
+.uk-pagination > li > span {
+    display: inline-block;
+    min-width: @pagination-line-height + (2 * @pagination-padding-vertical) - (2 * @pagination-padding-horizontal);
+    padding: @pagination-padding-vertical @pagination-padding-horizontal;
+    line-height: @pagination-line-height;
+    text-decoration: none;
+    /* 1 */
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    /* 2 */
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    .hook-pagination-item;
+}
+
+/*
+ * Links
+ */
+
+.uk-pagination > li > a {
+    background: @pagination-background;
+    color: @pagination-color;
+    .hook-pagination-link;
+}
+
+/*
+ * Hover
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ */
+
+.uk-pagination > li > a:hover,
+.uk-pagination > li > a:focus { // 1
+    background-color: @pagination-hover-background;
+    color: @pagination-hover-color;
+    /* 2 */
+    outline: none;
+    .hook-pagination-link-hover;
+}
+
+/* OnClick */
+.uk-pagination > li > a:active {
+    background-color: @pagination-onclick-background;
+    color: @pagination-onclick-color;
+    .hook-pagination-link-active;
+}
+
+/*
+ * Active
+ */
+
+.uk-pagination > .uk-active > span {
+    background: @pagination-active-background;
+    color: @pagination-active-color;
+    font-weight: bold;
+    .hook-pagination-active;
+}
+
+/*
+ * Disabled
+ */
+
+.uk-pagination > .uk-disabled > span {
+    background-color: @pagination-disabled-background;
+    color: @pagination-disabled-color;
+    .hook-pagination-disabled;
+}
+
+
+/* Previous and next navigation
+ ========================================================================== */
+
+.uk-pagination-previous { float: left; }
+.uk-pagination-next { float: right; }
+
+
+/* Alignment modifiers
+ ========================================================================== */
+
+.uk-pagination-left { text-align: left; }
+.uk-pagination-right { text-align: right; }
+
+
+// Hooks
+// ========================================================================
+
+.hook-pagination-misc;
+
+.hook-pagination-item() {}
+.hook-pagination-link() {}
+.hook-pagination-link-hover() {}
+.hook-pagination-link-active() {}
+.hook-pagination-active() {}
+.hook-pagination-disabled() {}
+.hook-pagination-misc() {}

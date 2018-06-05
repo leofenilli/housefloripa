@@ -1,0 +1,1682 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eclat 1.0.0\n"
+"POT-Creation-Date: 2016-02-26 15:58+0200\n"
+"PO-Revision-Date: 2016-02-26 15:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: Elartica Team <admin@elartica.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: wp-content/themes/eclat"
+
+#: functions.php:344
+msgid "Quick View"
+msgstr ""
+
+#: functions.php:361 functions.php:374
+msgid "This limited offers ends in:"
+msgstr ""
+
+#: layouts/countdown.php:44
+msgid "weeks"
+msgstr ""
+
+#: layouts/countdown.php:45
+msgid "days"
+msgstr ""
+
+#: layouts/countdown.php:46
+msgid "hours"
+msgstr ""
+
+#: layouts/countdown.php:47
+msgid "min"
+msgstr ""
+
+#: layouts/countdown.php:48
+msgid "sec"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/404.php:4
+msgid "Oops! So sorry this page is not available"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/404.php:6
+msgid "Return to frontpage"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/_post_grid.php:27
+#: warp/systems/wordpress/layouts/_post_list.php:24
+#: warp/systems/wordpress/layouts/search.php:19
+msgid "Continue Reading"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/_post_grid.php:34
+#: warp/systems/wordpress/layouts/_post_list.php:31
+#: warp/systems/wordpress/layouts/_post_quote.php:17
+#: warp/systems/wordpress/layouts/search.php:26
+#, php-format
+msgid "Written by %s. Posted in %s"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/archive.php:17
+#: warp/systems/wordpress/layouts/archive.php:22
+#: warp/systems/wordpress/layouts/archive.php:28
+#: warp/systems/wordpress/layouts/archive.php:33
+#: warp/systems/wordpress/layouts/search.php:50
+msgid "Warning!"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/archive.php:18
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/archive.php:23
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/archive.php:29
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/archive.php:34
+msgid "No posts found."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/attachment.php:11
+#, php-format
+msgid "Published by %s on %s"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/attachment.php:17
+#, php-format
+msgid "Full size is %s pixels."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/attachment.php:20
+msgid "Link to full-size image"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/attachment.php:32
+msgid "Edit this attachment."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:8
+#, php-format
+msgid "Comments <span>(%s)</span>"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:46
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:48
+#: woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:58
+msgid "Reply"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:64
+#: woocommerce/loop/no-products-found.php:19 woocommerce/notices/notice.php:24
+msgid "Information for you"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:65
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:90
+msgid "Leave a comment"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:90
+msgid "Comments are closed"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:97
+#: woocommerce/checkout/thankyou.php:19 woocommerce/notices/error.php:24
+msgid "Oh no!"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:98
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:108
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:108
+msgid "Log out of this account"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:108
+msgid "Log out &raquo;"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:117
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:114
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:222
+#: woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:123
+msgid "E-mail"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:129
+msgid "Website"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:139
+msgid "Comment"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:144
+msgid "Submit Comment"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:172
+#: woocommerce/myaccount/my-orders.php:93
+msgid "Cancel"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/index.php:15
+msgid "Not Found"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/index.php:16
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/search.php:51
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/single-portfolio.php:17
+#: warp/systems/wordpress/layouts/single.php:64
+msgid "Next"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/single-portfolio.php:25
+#: warp/systems/wordpress/layouts/single.php:72
+msgid "Prev"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/single.php:20
+#, php-format
+msgid "by %s. Posted in %s"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/single.php:22
+msgid "Edit this post."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/single.php:47
+#, php-format
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr ""
+
+#: warp/systems/wordpress/layouts/single.php:51
+msgid "Tags: "
+msgstr ""
+
+#: warp/systems/wordpress/layouts/widgets/rss.php:4
+msgid "Read feed"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/widgets/search.php:1
+msgid "Search Results"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/widgets/search.php:1
+msgid "More Results"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/widgets/search.php:1
+msgid "No results found"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/widgets/search.php:2
+msgid "search..."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:54
+msgid "Colorpicker"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:138
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:142
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:522
+msgid "Color"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:138
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:142
+msgid "Label"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:190
+msgid "Value"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:252
+msgid "Select terms"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:264
+msgid "Select all"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:265
+msgid "Select none"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/AttributeTypes.php:266
+msgid "Add new"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:115
+msgid "All categories"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:278
+msgid "Share on"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:599
+msgid "Product Code:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:599
+#: woocommerce/order/order-details.php:49
+#: woocommerce/order/order-details.php:68
+msgid "N/A"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:630
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:719
+msgid "Image on top of the category page"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:634
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:724
+msgid "Upload/Add image"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:635
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:725
+msgid "Remove image"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:659
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:749
+msgid "Choose an image"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:661
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:751
+msgid "Use image"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:690
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:781
+msgid "Image URL"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:692
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:784
+msgid "Insert URL to make the image linked"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/FunctionHelper.php:858
+msgid "New"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/MetaBoxHelper.php:25
+msgid "Video ID"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/MetaBoxHelper.php:26
+msgid "Insert the video ID."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/MetaBoxHelper.php:30
+msgid "Video host"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/MetaBoxHelper.php:31
+msgid "Select where is the video hosted."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/MetaBoxHelper.php:35
+msgid "Youtube"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/MetaBoxHelper.php:39
+msgid "Vimeo"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/SystemHelper.php:490
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:77
+msgid "Posts Tagged "
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/SystemHelper.php:493
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/SystemHelper.php:495
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/SystemHelper.php:497
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:83
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:87
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:91
+msgid "Archive for "
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/SystemHelper.php:500
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:96
+msgid "Author Archive"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/SystemHelper.php:502
+msgid "Search Results for"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Helper/SystemHelper.php:514
+msgid "Blog Archives"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:333
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/plugins.php:131
+msgid "Install Required Plugins"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:334
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/plugins.php:132
+msgid "Install Plugins"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:335
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/plugins.php:133
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:336
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/plugins.php:134
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:397
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/plugins.php:145
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:399
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3025
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/plugins.php:146
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:824
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3434
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:931
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:931
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:934
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2163
+msgid "Required"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2166
+msgid "Recommended"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2182
+msgid "WordPress Repository"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2185
+msgid "External Source"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2188
+msgid "Pre-Packaged"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2205
+msgid "Not Installed"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2209
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2211
+msgid "Active"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2217
+msgid "Required Update not Available"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2220
+msgid "Requires Update"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2223
+msgid "Update recommended"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2375
+msgid "Installed version:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2383
+msgid "Minimum required version:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2395
+msgid "Available version:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2418
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2432
+msgid "Plugin"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2433
+msgid "Source"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2434
+msgid "Type"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2438
+msgid "Version"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2439
+#: woocommerce/myaccount/my-orders.php:37
+#: woocommerce/myaccount/my-orders.php:67
+#: woocommerce/myaccount/my-orders.php:76
+msgid "Status"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2566
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2599
+msgid "Install"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2605
+msgid "Update"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2608
+msgid "Activate"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2639
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2641
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2677
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2679
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2784
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:2810
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3024
+msgid "Plugin activation failed."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3358
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3360
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3361
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3365
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3366
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3366
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3372
+msgid "Show Details"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3366
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3372
+msgid "Hide Details"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3367
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3368
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3371
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3373
+msgid "All installations have been completed."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/class-tgm-plugin-activation.php:3374
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/TGM/plugins.php:147
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:163
+msgid "Portfolio"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:212
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Sidebar.php:49
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:102
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:210
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:498
+msgid "Title:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Breadcrumbs.php:216
+msgid "Home title:"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:13
+msgid "Display a list of your Brands on your site."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:14
+msgid "Eclat - Woocommerce Brands"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:42
+msgid "Please Select"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:91
+msgid "Filter by Brand"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:108
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:216
+msgid "Order by"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:112
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:220
+msgid "Category Order"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:120
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:228
+msgid "Show as dropdown"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:124
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:136
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:232
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:244
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:256
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:268
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:150
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:170
+msgid "Yes"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:126
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:138
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:234
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:246
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:258
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:270
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:152
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:172
+msgid "No"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Brands.php:132
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:240
+msgid "Show product counts"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:13
+msgid "Display the user Cart in the header of the page."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:14
+msgid "Eclat - Woocommerce Cart"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:31
+msgid "Product added"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:37
+msgid "Cart"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:52
+#: woocommerce/cart/mini-cart.php:70
+msgid "No products in the cart."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:61
+#: woocommerce/loop/add-to-cart.php:42 woocommerce/single-product/meta.php:26
+msgid "Browse Wishlist"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:63
+msgid "Wishlist"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:71
+#: woocommerce/loop/add-to-cart.php:23 woocommerce/single-product/meta.php:47
+msgid "Browse Compare"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:73
+msgid "Compare"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Cart.php:87
+msgid "Display a dropdown cart for your WooCommerce store."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:27
+msgid "A list or dropdown of product categories."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:28
+msgid "Eclat - Woocommerce Product Categories"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:179
+msgid "No product categories exist."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:197
+msgid "Product Categories"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:252
+msgid "Show hierarchy"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Categories.php:264
+msgid "Only show children of the current category"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:14
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:15
+msgid "Eclat - Woocommerce Layered Nav"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:91
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:487
+msgid "Filter by"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:504
+msgid "Attribute"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:514
+msgid "Display type"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:528
+msgid "Query type"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:532
+msgid "AND"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Leyered_Nav.php:534
+msgid "OR"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:13
+msgid "Display Login Menu in the header of the page."
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:14
+msgid "Eclat - Woocommerce Login"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:68
+msgid "Welcome"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:91
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:106
+#: woocommerce/global/form-login.php:46 woocommerce/myaccount/form-login.php:29
+#: woocommerce/myaccount/form-login.php:50
+msgid "Login"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:92
+msgid "Sign in with username or email address"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:97
+#: woocommerce/global/form-login.php:29
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid "Username or email"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:101
+#: woocommerce/global/form-login.php:35 woocommerce/myaccount/form-login.php:42
+#: woocommerce/myaccount/form-login.php:96
+msgid "Password"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:110
+#: woocommerce/global/form-login.php:53 woocommerce/myaccount/form-login.php:56
+msgid "Lost your password?"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:112
+msgid "Sign up"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:115
+#: woocommerce/global/form-login.php:49 woocommerce/myaccount/form-login.php:52
+msgid "Remember me"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:134
+msgid "Login in"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:146
+msgid "Show Logged Out Menu"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:158
+msgid "Title Logged Out"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:166
+msgid "Show Logged In Menu"
+msgstr ""
+
+#: warp/systems/wordpress/src/Warp/Wordpress/Widgets/Woocommerce_Login.php:178
+msgid "Select Logged In Menu:"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:21
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:28
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:20
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:22 woocommerce/cart/cart-shipping.php:97
+#: woocommerce/cart/cart-totals.php:69
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76 woocommerce/cart/cart-shipping.php:82
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:102 woocommerce/cart/cart-totals.php:71
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:24 woocommerce/cart/mini-cart.php:75
+#: woocommerce/checkout/review-order.php:50
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:77 woocommerce/cart/cart-totals.php:102
+#: woocommerce/cart/cart.php:29 woocommerce/checkout/review-order.php:18
+#: woocommerce/checkout/review-order.php:97
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/myaccount/my-orders.php:70
+#: woocommerce/myaccount/my-orders.php:73
+#: woocommerce/order/order-details.php:88
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:89
+#, php-format
+msgid "estimated for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:92
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:25
+msgid "Photo"
+msgstr ""
+
+#: woocommerce/cart/cart.php:26 woocommerce/checkout/review-order.php:17
+#: woocommerce/order/order-details.php:87
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+msgid "Removed"
+msgstr ""
+
+#: woocommerce/cart/cart.php:68
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:103 woocommerce/cart/mini-cart.php:59
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:123 woocommerce/checkout/form-coupon.php:28
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127
+msgid "Ok"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:80
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:81
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:38
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:56
+#: woocommerce/cart/shipping-calculator.php:62
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:63
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:91
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:98
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:19
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:23
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:42
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:53
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:46
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:33
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:18
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:19
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:26
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:20
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:25
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:27
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:31 woocommerce/myaccount/my-orders.php:86
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:33
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40 woocommerce/checkout/thankyou.php:74
+#: woocommerce/notices/success.php:24
+msgid "Well done!"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:75
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:59
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/content-product.php:99
+#: woocommerce/content-related-product.php:94
+msgid "Read more"
+msgstr ""
+
+#: woocommerce/content-slider-product.php:13
+msgid "Show now"
+msgstr ""
+
+#: woocommerce/global/filter-button.php:15
+msgid "Filter"
+msgstr ""
+
+#: woocommerce/global/list-or-grid.php:15
+msgid "Switch to grid view"
+msgstr ""
+
+#: woocommerce/global/list-or-grid.php:18
+msgid "Switch to list view"
+msgstr ""
+
+#: woocommerce/global/number-of-products.php:50
+msgid "View style:"
+msgstr ""
+
+#: woocommerce/global/number-of-products.php:56
+msgid "ALL"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:27 woocommerce/single-product/meta.php:51
+msgid "Add to Compare"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:46 woocommerce/single-product/meta.php:30
+msgid "Add to Wishlist"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:60
+msgid "Out Of Stock"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:76
+msgid "Set options"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:81
+msgid "View options"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:86 woocommerce/loop/add-to-cart.php:99
+msgid "Read More"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:92
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:20
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:27
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:25
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+#: woocommerce/myaccount/form-login.php:89
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:43
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:47
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Confirm New Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:60
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details.php:44
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details.php:63
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:45
+msgid "Save Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:30
+msgid "You must be logged in to get access to this section"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:38
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:71
+#: woocommerce/myaccount/form-login.php:109
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Register now to get the opportunity to control your orders."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:82
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:102
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:33
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:39
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:45
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:59
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:59
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/my-account-menu.php:15
+#: woocommerce/myaccount/my-account-menu.php:16
+msgid "My Wishlist"
+msgstr ""
+
+#: woocommerce/myaccount/my-account-menu.php:22
+#: woocommerce/myaccount/my-account-menu.php:23
+msgid "My Compare List"
+msgstr ""
+
+#: woocommerce/myaccount/my-account-menu.php:28
+#: woocommerce/myaccount/my-account-menu.php:29
+msgid "My Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-account-menu.php:33
+msgid "My Download"
+msgstr ""
+
+#: woocommerce/myaccount/my-account-menu.php:34
+msgid "My Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-account-menu.php:38
+#: woocommerce/myaccount/my-account-menu.php:39
+msgid "Edit Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-account-menu.php:43
+#: woocommerce/myaccount/my-account-menu.php:44
+msgid "Edit Account"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:20
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:46
+msgid "There are no available downloads."
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:33
+#: woocommerce/myaccount/my-orders.php:64
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Ship to"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:36
+msgid "Items QTY"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:59
+msgid "Order Number"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:99
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:117
+msgid "There are no orders yet."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:20
+#, php-format
+msgid ""
+"Order #<strong>%s</strong> was placed on <strong>%s</strong> and is "
+"currently <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:24 woocommerce/order/tracking.php:25
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:30 woocommerce/order/tracking.php:31
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:22
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:22
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:26
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-again.php:16
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details.php:19
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:23
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:23
+#: woocommerce/single-product-reviews.php:68
+msgid "Email"
+msgstr ""
+
+#: woocommerce/order/order-details.php:27
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:27
+msgid "Telephone"
+msgstr ""
+
+#: woocommerce/order/order-details.php:83
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:126
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:192
+#: woocommerce/order/order-details.php:196
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: woocommerce/order/order-details.php:214
+msgid "Refunded:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:223
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+#, php-format
+msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid " ago"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:43
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:59
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Submit review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid ""
+"Rate the product. Please select a rating between<br/> 0 (poorest) and 5 "
+"stars (best)."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:41
+msgid "Select "
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:42
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:59
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/related.php:46
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:47
+msgid "You may also like&hellip;"
+msgstr ""

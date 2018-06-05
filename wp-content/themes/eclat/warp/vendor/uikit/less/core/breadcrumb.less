@@ -1,0 +1,115 @@
+// Name:            Breadcrumb
+// Description:     Defines styles for a breadcrumb navigation
+//
+// Component:       `uk-breadcrumb`
+//
+// States:          `uk-active`
+//
+// Markup:
+//
+// <!-- uk-breadcrumb -->
+// <ul class="uk-breadcrumb">
+//     <li><a href=""></a></li>
+//     <li><span></span></li>
+//     <li class="uk-active"><span></span></li>
+// </ul>
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@breadcrumb-font-size:                          1rem;
+@breadcrumb-font-color:                         @base-body-color;
+
+@breadcrumb-divider:                            "\e618";
+@breadcrumb-divider-margin:                     8px;
+@breadcrumb-disabled-color:                     #999;
+
+
+/* ========================================================================
+   Component: Breadcrumb
+ ========================================================================== */
+
+/*
+ * 1. Remove default list style
+ * 2. Remove whitespace between child elements when using `inline-block`
+ */
+
+.uk-breadcrumb {
+    /* 1 */
+    padding: 0;
+    color: @breadcrumb-font-color;
+    list-style: none;
+    /* 2 */
+    font-size: 0.001px;
+    .hook-breadcrumb;
+}
+
+
+/* Items
+ ========================================================================== */
+
+/*
+ * Reset whitespace hack
+ */
+
+.uk-breadcrumb > li {
+    font-size: @breadcrumb-font-size;
+    vertical-align: top;
+}
+
+.uk-breadcrumb > li,
+.uk-breadcrumb > li > a,
+.uk-breadcrumb > li > span {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.uk-breadcrumb > li > a { color: @breadcrumb-link-color; }
+
+.uk-breadcrumb > li > a:hover,
+.uk-breadcrumb > li > a:focus { color: @breadcrumb-link-hover-color; }
+
+.uk-breadcrumb > li:nth-child(n+2) {
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.uk-breadcrumb > li:nth-child(n+2):before {
+    font-family: 'eclatico';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 20px;
+    position: absolute;
+    left: 4px;
+    top: 0;
+    content: @breadcrumb-divider;
+    .hook-breadcrumb-divider;
+}
+
+/*
+ * Disabled
+ */
+
+.uk-breadcrumb > li > a:hover,
+.uk-breadcrumb > li:not(.uk-active) > span {
+    text-decoration: none;
+    color: @breadcrumb-disabled-color;
+}
+
+
+// Hooks
+// ========================================================================
+
+.hook-breadcrumb-misc;
+
+.hook-breadcrumb() {}
+.hook-breadcrumb-divider() {}
+.hook-breadcrumb-misc() {}

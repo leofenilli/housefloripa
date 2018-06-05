@@ -1,0 +1,2195 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eclat Shortcode\n"
+"POT-Creation-Date: 2016-02-26 16:08+0200\n"
+"PO-Revision-Date: 2016-02-26 16:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: Elartica Team <admin@elartica.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: wp-content/plugins/eclat-shortcode\n"
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:6
+msgid "Alert Box"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:8
+msgid "Notification box"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:21
+msgid "Type of your message"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:24
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:26
+msgid "Info"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:25
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:877
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:66
+msgid "Success"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:26
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:878
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:51
+msgid "Warning"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:27
+msgid "Error"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:37
+msgid "Style of your message"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:40
+msgid "Standard"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:41
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:916
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:51
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:35
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:63
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:115
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:73
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:63
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:63
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:63
+msgid "Small"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:42
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:64
+msgid "Border"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:43
+msgid "No Icon"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:53
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:36
+msgid "Inline"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:56
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:71
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:102
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:38
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:108
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:165
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:267
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:334
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:347
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:360
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:850
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:928
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:98
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:80
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:78
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:91
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:104
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:117
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:146
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:161
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:24
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:65
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:141
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:217
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:293
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:68
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:32
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:60
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:54
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:65
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:112
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:212
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:228
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:70
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:180
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:196
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:60
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:60
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:60
+msgid "No"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:57
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:70
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:103
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:39
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:109
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:166
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:268
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:333
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:346
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:359
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:851
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:929
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:99
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:79
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:77
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:90
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:103
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:116
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:147
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:160
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:23
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:64
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:140
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:216
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:292
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:69
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:53
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:64
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:213
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:227
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:181
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:195
+msgid "Yes"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:67
+msgid "Show close link"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:80
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:20
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:73
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/info-box.php:19
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:19
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:106
+msgid "Title"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:90
+msgid "Message text"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:99
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:35
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:105
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:162
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:95
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:65
+msgid "Use Scrollspy"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:111
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:47
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:117
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:174
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:105
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:77
+msgid "Scrollspy Class"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:114
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:50
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:120
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:177
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:108
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:80
+msgid "The element fades in"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:115
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:51
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:121
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:178
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:109
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:81
+msgid "The element scales up"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:116
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:52
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:122
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:179
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:110
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:82
+msgid "The element scales down"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:117
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:53
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:123
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:180
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:111
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:83
+msgid "The element slides in from the top"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:118
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:54
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:124
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:181
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:112
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:84
+msgid "The element slides in from the bottom"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:119
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:55
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:125
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:182
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:113
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:85
+msgid "The element slides in from the left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:120
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:56
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:126
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:183
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:114
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:86
+msgid "The element slides in from the Right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:121
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:57
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:127
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:184
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:115
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:87
+msgid "The element shakes"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:122
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:58
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:128
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:185
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:116
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:88
+msgid "The element scales down without fading in"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:134
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:67
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:137
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:194
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:126
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:97
+msgid "Scrollspy Repeat"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:137
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:70
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:140
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:129
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:100
+msgid "True"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:138
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:71
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:141
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:130
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:101
+msgid "False"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:144
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:74
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:144
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:201
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:136
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:104
+msgid "Applies the class everytime the element appears in the viewport."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:151
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:81
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:151
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:208
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:141
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:111
+msgid "Scrollspy Delay"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/alert-box.php:158
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:85
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:155
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:212
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:148
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:115
+msgid "Adds a delay in milliseconds to the animation."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:5
+msgid "Banner"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:7
+msgid "Add Banner"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:29
+msgid "Title Position"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:32
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:740
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:109
+msgid "Top"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:33
+msgid "Top Left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:34
+msgid "Top Right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:35
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:741
+msgid "Bottom"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:36
+msgid "Bottom Left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:37
+msgid "Bottom Right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:47
+msgid "Title Background"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:57
+msgid "URL"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:67
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:125
+msgid "Background Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:77
+msgid "Background Image"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/banner.php:87
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:32
+msgid "Height"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:23
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:92
+msgid "Row Type"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:26
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:95
+msgid "Full Width"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:27
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:96
+msgid "Boxed"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:222
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:593
+msgid "Tads ID"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:225
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:597
+msgid "Related items container."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:232
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:635
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:126
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:168
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:189
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:136
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:157
+msgid "Animation"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:235
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:638
+msgid "The items fades in"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:236
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:639
+msgid "The items scale up"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:237
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:640
+msgid "The items slide in from the top"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:238
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:641
+msgid "The items slide in from the bottom."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:239
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:642
+msgid "The items slide in from the left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:240
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:643
+msgid "The items slide in from the right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:241
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:644
+msgid ""
+"The items slide horizontally, the direction depending on the adjacency of "
+"the item"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:242
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:645
+msgid ""
+"The items slide vertically, the direction depending on the adjacency of the "
+"item"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:244
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:648
+msgid "You can add different animations to items when toggling between them."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:254
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:837
+msgid "Title block"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:257
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:840
+msgid "Title before tabs."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:264
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:847
+msgid "Slider content?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:270
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:853
+msgid "Choose YES in this parameter if the slider used inside"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:292
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:579
+msgid "Template"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:295
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:582
+msgid "Default VC"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:296
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:583
+msgid "This Theme"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:298
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:585
+msgid "Select the template you will use"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:304
+msgid "Accordion Style"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:307
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:320
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:876
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:915
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:62
+msgid "Default"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:308
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:63
+msgid "Primary"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:310
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:386
+msgid "Select accordion display style."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:317
+msgid "Navigation Style"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:321
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:396
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:670
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:79
+msgid "Round"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:323
+msgid "Select accordion nav display style."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:330
+msgid "Show First?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:336
+msgid "Show first item on init"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:343
+msgid "Collapse"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:349
+msgid "Allow multiple open items"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:356
+msgid "Animate"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:362
+msgid "Animate toggle"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:369
+msgid "Duration"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:373
+msgid "Animation duration"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:380
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:655
+msgid "Classic"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:381
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:656
+msgid "Modern"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:382
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:657
+msgid "Flat"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:383
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:658
+msgid "Outline"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:385
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:660
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:59
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:29
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:44
+msgid "Style"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:394
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:668
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:78
+msgid "Rounded"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:395
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:669
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:77
+msgid "Square"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:398
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:672
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:74
+msgid "Shape"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:399
+msgid "Select accordion shape."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:408
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:679
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:873
+msgid "Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:409
+msgid "Select accordion color."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:417
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:689
+msgid "Do not fill content area?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:418
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:690
+msgid "Do not fill content area with color."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:426
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:448
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:483
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:514
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:697
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:719
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:763
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:793
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:27
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:32
+msgid "None"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:439
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:710
+msgid "Spacing"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:440
+msgid "Select accordion spacing."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:461
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:732
+msgid "Gap"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:462
+msgid "Select accordion gap."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:470
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:529
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:751
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:37
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:110
+msgid "Left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:471
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:530
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:752
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:39
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:111
+msgid "Right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:472
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:753
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:38
+msgid "Center"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:474
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:755
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:33
+msgid "Alignment"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:475
+msgid "Select accordion section title alignment."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:497
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:777
+msgid "Autoplay"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:498
+msgid ""
+"Select auto rotate for accordion in seconds (Note: disabled by default)."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:505
+msgid "Allow collapse all?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:506
+msgid "Allow collapse all accordion sections."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:515
+msgid "Chevron"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:516
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:36
+msgid "Plus"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:517
+msgid "Triangle"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:520
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:86
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:95
+msgid "Icon"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:521
+msgid "Select accordion navigation icon."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:532
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:743
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:58
+msgid "Position"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:533
+msgid "Select accordion navigation icon position."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:540
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:784
+msgid "Active section"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:542
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:786
+msgid ""
+"Enter active section number (Note: to have all sections closed on initial "
+"load enter non-existing number)."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:548
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:816
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:945
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:154
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:183
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/info-box.php:55
+msgid "Extra class name"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:550
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:818
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:556
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:823
+msgid "CSS box"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:558
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:825
+msgid "Design Options"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:602
+msgid "Tab Style"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:605
+msgid "Standard tab"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:606
+msgid "Standard tab bottom"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:607
+msgid "Standard tab left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:608
+msgid "Standard tab right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:609
+msgid "Tab link"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:610
+msgid "Tab subnav"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:613
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:661
+msgid "Select tabs display style."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:619
+msgid "Width tabs navigate"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:627
+msgid ""
+"Use the Grid component to display content correctly with a vertical tabbed "
+"navigation."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:673
+msgid "Select tabs shape."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:680
+msgid "Select tabs color."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:711
+msgid "Select tabs spacing."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:733
+msgid "Select tabs gap."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:744
+msgid "Select tabs navigation position."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:756
+msgid "Select tabs section title alignment."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:778
+msgid "Select auto rotate for tabs in seconds (Note: disabled by default)."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:794
+msgid "Square Dots"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:795
+msgid "Radio Dots"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:796
+msgid "Point Dots"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:797
+msgid "Fill Square Dots"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:798
+msgid "Rounded Fill Square Dots"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:800
+msgid "Pagination style"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:801
+msgid "Select pagination style."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:808
+msgid "Pagination color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:809
+msgid "Select pagination color."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:879
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:67
+msgid "Danger"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:880
+msgid "Custom Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:882
+msgid "Select bar background color."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:888
+msgid "Bar custom background color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:890
+msgid "Select custom background color for bars."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:896
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:904
+msgid "Bar custom text color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:898
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:906
+msgid "Select custom text color for bars."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:912
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:46
+msgid "Size"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:917
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:52
+msgid "Mini"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:919
+msgid "Change the size of the bar."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:925
+msgid "Striped"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:930
+msgid "Yes active"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:932
+msgid "Add striped progress bar."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:938
+msgid "Units"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:940
+msgid ""
+"Enter measurement units (Example: %, px, points, etc. Note: graph value and "
+"units will be appended to graph title)."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/custom-vc.php:947
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:5
+msgid "Button"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:7
+msgid "Insert button"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:16
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:60
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:101
+msgid "Text"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:20
+msgid "Text on the button"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:21
+msgid "Enter text on the button."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:26
+msgid "URL (Link)"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:28
+msgid "Enter button link."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:41
+msgid "Select button alignment."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:49
+msgid "Regular"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:50
+msgid "Large"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:54
+msgid "Select button size."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:65
+msgid "Link"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:69
+msgid "Select button style."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-button.php:81
+msgid "Select button shape."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-tta.php:15
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/eclat-tta.php:40
+msgid "Edit page to add content here."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:6
+msgid "Google Map"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:8
+msgid "Map block"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:18
+msgid "Latitude"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:25
+msgid "Longitude"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:39
+msgid "Zoom Level"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:46
+msgid "Get Directions Button"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:49
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:68
+msgid "Enabled"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:50
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:69
+msgid "Disabled"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:57
+msgid "Button Text"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:65
+msgid "Control Elements"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:76
+msgid "Do you want to change the map style?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:87
+msgid "Landscape Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:98
+msgid "Water Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:109
+msgid "Road Highway Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:120
+msgid "Road Arterial Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:131
+msgid "Road Local Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/google-map.php:142
+msgid "Points of Interes Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:5
+msgid "Arrow Left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:6
+msgid "Arrow Right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:7
+msgid "Arrow Long Down"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:8
+msgid "Arrow Long Up"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:9
+msgid "Arrow Long Left"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:10
+msgid "Arrow Long Right"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:11
+msgid "Arrow Back"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:12
+msgid "Cart"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:13
+msgid "Cancel"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:14
+msgid "Cancel Oval"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:15
+msgid "Config"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:16
+msgid "Check"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:17
+msgid "Clock"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:18
+msgid "Comment"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:19
+msgid "Compare"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:20
+msgid "Cup"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:21
+msgid "Date"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:22
+msgid "Grid"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:23
+msgid "Gallery"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:24
+msgid "Heart"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:25
+msgid "Heart Bold"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:27
+msgid "Info Bold"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:28
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/info-box.php:46
+msgid "Image"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:29
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:30
+msgid "Like"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:31
+msgid "Lane"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:32
+msgid "List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:33
+msgid "Mail"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:34
+msgid "Marker"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:35
+msgid "Minus"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:37
+msgid "Purce"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:38
+msgid "Quote"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:39
+msgid "Refresh"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:40
+msgid "Sale"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:41
+msgid "Search"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:42
+msgid "Share"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:43
+msgid "Smile"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:44
+msgid "Star"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:45
+msgid "Star Active"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:46
+msgid "Tag"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:47
+msgid "Tell"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:48
+msgid "User"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:49
+msgid "Video"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:50
+msgid "Wallet"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:59
+msgid "Icon Box"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:61
+msgid "Place Icon Box"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:82
+msgid "Separator"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:85
+msgid "Without Separator"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:86
+msgid "With Separator"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:106
+msgid "Icon Position"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:120
+msgid "Icon Style"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:123
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:33
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:61
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:113
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:71
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:61
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:61
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:61
+msgid "Normal"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:124
+msgid "Outlined"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:134
+msgid "Icon Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:143
+msgid "Icon Background Color"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:156
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/info-box.php:28
+msgid "Description"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:165
+msgid "Link Text"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/icon-box.php:174
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/info-box.php:37
+msgid "Link URL"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/info-box.php:5
+msgid "Info Box"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/info-box.php:7
+msgid "Place Info Box"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:5
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:89
+msgid "Last Tweets"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:7
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:13
+msgid "Display the last tweets posts into your site."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:19
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:113
+msgid "Username"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:28
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:120
+msgid "Consumer key"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:37
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:127
+msgid "Consumer secret"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:46
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:134
+msgid "Access token"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:55
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:141
+msgid "Access token secret"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:64
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:46
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:87
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:163
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:239
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:315
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:19
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:20
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:20
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:20
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:20
+msgid "Items"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:74
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:163
+msgid "Show Time"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:87
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:171
+msgid "Show Username"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:100
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:179
+msgid "Show actions link"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:113
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:187
+msgid "Show Follow link"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:129
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:171
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:192
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:139
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:160
+msgid "The items fade in and out."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:130
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:172
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:195
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:140
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:163
+msgid "The items scale up and down."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:131
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:173
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:194
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:141
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:162
+msgid "The items slide to and from the top."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:132
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:174
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:142
+msgid "The items slide to and from the bottom."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:133
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:175
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:193
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:143
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:161
+msgid "The items slide to the side."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:134
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:176
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:144
+msgid "The items slide vertically."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:136
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:182
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:201
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:150
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:169
+msgid ""
+"You can add animations which can be used to display the next set of items."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:143
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:209
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:177
+msgid "Auto play"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:150
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:216
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:184
+msgid "Defines whether or not the items should switch automatically."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:157
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:224
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:192
+msgid "Pause on hover"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:168
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:235
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:203
+msgid "Pause autoplay when hovering."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:175
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:242
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:210
+msgid "Autoplay Interval"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/last-tweets.php:183
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:250
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:218
+msgid "Defines the timespan between switching items."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:5
+msgid "List styles"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:7
+msgid "Sets style of your list"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:17
+msgid "Type"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:21
+msgid "Bulleted"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:22
+msgid "Numbered"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:33
+msgid "Circle List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:34
+msgid "Circle Primary List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:35
+msgid "Check List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:36
+msgid "Check Primary List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:48
+msgid "Round List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:49
+msgid "Round Primary List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:50
+msgid "Square List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:51
+msgid "Square Primary List"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/list-styles.php:62
+msgid ""
+"<ul><li>I am list block. Click edit button to change this text.</li><li>I am "
+"list block. Click edit button to change this text.</li></ul>"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:5
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:5
+msgid "Products Slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:7
+msgid "Add a products slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:20
+msgid "Show Best Selling Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:33
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:74
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:150
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:226
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:302
+msgid "Title tab"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:61
+msgid "Show Recent products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:101
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:177
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:253
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:329
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:30
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:30
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:30
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:30
+msgid "Order by"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:104
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:180
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:256
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:332
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:33
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:32
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:37
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:33
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:33
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:33
+msgid "Random"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:105
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:181
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:257
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:333
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:34
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:29
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:34
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:34
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:34
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:34
+msgid "Sort alphabetically"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:106
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:182
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:258
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:334
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:35
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:30
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:35
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:35
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:35
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:35
+msgid "Sort by most recent"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:119
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:195
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:271
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:347
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:44
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:39
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:47
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:44
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:44
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:44
+msgid "Sorting"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:122
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:198
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:274
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:350
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:47
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:42
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:50
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:47
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:47
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:47
+msgid "Descending"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:123
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:199
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:275
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:351
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:48
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:43
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:51
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:48
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:48
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:48
+msgid "Crescent"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:137
+msgid "Show Top Rated Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:213
+msgid "Show Sale Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/products-slider.php:289
+msgid "Show Featured Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:30
+msgid "Recent Blog Posts"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:32
+msgid "Display the latest posts in the blog"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:45
+msgid "Number of Posts"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:48
+msgid "Number of posts to be displayed."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/recent-blog-post.php:56
+msgid "Category"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:5
+msgid "Team Member"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:7
+msgid "Add Team Member"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:17
+msgid "Display Type"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:20
+msgid "Vertical"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:21
+msgid "Horizontal"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:28
+msgid "Avatar"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:35
+msgid "Image size"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:38
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height))."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:44
+msgid "Name"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:51
+#: eclat-shortcode/includes/ShortCodes/team-member.php:68
+msgid "E-mail"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:65
+msgid "Twitter link"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:72
+msgid "Facebook link"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:79
+msgid "Linkedin"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:86
+msgid "Instagram"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/team-member.php:93
+msgid "Skype name"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/vc-templates/vc_tab.php:8
+msgid "Empty tab. Edit page to add content here."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:5
+msgid "Best Selling Products Slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:7
+msgid "Add a best selling products slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:29
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:57
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:109
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:67
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:57
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:57
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:57
+msgid "Products Grid"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:34
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:62
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:114
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:72
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:62
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:62
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:62
+msgid "Medium"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:44
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:72
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:128
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:96
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:72
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:72
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:72
+msgid "Items in row - large"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:54
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:82
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:138
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:106
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:82
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:82
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:82
+msgid "Items in row - medium"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:64
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:92
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:148
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:116
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:92
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:92
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:92
+msgid "Items in row - small"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-best-selling-products-slider.php:74
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:102
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:158
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:126
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:102
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:102
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:102
+msgid "Items in row - phone"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:5
+msgid "Featured Products Slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-featured-products-slider.php:7
+msgid "Add a featured products slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:5
+msgid "Product Categories - Grid"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:7
+msgid "Add a product categories masonry grid"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:17
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:19
+msgid "How many product categories to display?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:24
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:29
+msgid "Order By"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:28
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:33
+msgid "Sort by ID"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:31
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:36
+msgid "Menu Order"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:50
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:61
+msgid "Hide Empty"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:61
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:75
+msgid "Parent"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:62
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:76
+msgid "Set the parent paramater to 0 to only display top level categories."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:69
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:86
+msgid "IDs"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:70
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:87
+msgid "Set ids to a comma separated list of category ids to only show those."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:77
+msgid "Gutter"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-grid.php:80
+msgid "Gutter between columns."
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:5
+msgid "Product Categories - Slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:7
+msgid "Add a product categories slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:96
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:54
+msgid "How to use the slider?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:99
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:57
+msgid "Default uikit Slideset"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-categories-slider.php:100
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:58
+msgid "Owl Carousel"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:7
+msgid "Add a woocommerce product slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:29
+msgid "How many product to display?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:38
+msgid "What products are displayed?"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:41
+msgid "Best Selling Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:42
+msgid "Featured Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:43
+msgid "Recent Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:44
+msgid "Sale Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:45
+msgid "Top Rated Products"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-product-slider.php:86
+msgid "Items in row - xlarge"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:5
+msgid "Recent Products Slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-recent-products-slider.php:7
+msgid "Add a recent products slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:5
+msgid "Sale Products Slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-sale-products-slider.php:7
+msgid "Add a sale products slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:5
+msgid "Top Rated Products Slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/VisualComposer/wc-top-rated-products-slider.php:7
+msgid "Add a top rated products slider"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:29
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:149
+msgid "Product SKU"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:32
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:154
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:158
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:21
+msgid "Stock status"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:42
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:166
+msgid "Weight"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:46
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:171
+msgid "Dimensions"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:67
+msgid "Delete all"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:125
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:42
+msgid "Remove this item"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:149
+msgid "N/A"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:154
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:90
+msgid "Out of Stock"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:158
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:92
+msgid "In Stock"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:218
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:224
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:120
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:127
+msgid "Information"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:219
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-compare.php:225
+msgid "No products were added to the compare"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:18
+msgid "Photo"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:19
+msgid "Product"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:20
+msgid "Price"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:64
+msgid "Available on backorder"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:82
+msgid "Free!"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:121
+#: eclat-shortcode/includes/ShortCodes/eclat-wc-wishlist.php:128
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/google-map.php:13
+msgid "Get Directions"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/last-tweets.php:60
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:62
+msgid "Reply"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/last-tweets.php:61
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:63
+msgid "Retweet"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/last-tweets.php:62
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:64
+msgid "Favourite"
+msgstr ""
+
+#: eclat-shortcode/includes/ShortCodes/last-tweets.php:76
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:77
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:14
+msgid "Eclat - Last Tweets"
+msgstr ""
+
+#: eclat-shortcode/includes/Widgets/Last_Tweets.php:148
+msgid "Limit"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:102
+msgid "year"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:102
+msgid "years"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:103
+msgid "month"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:103
+msgid "months"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:104
+msgid "week"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:104
+msgid "weeks"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:105
+msgid "day"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:105
+msgid "days"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:106
+msgid "hour"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:106
+msgid "hours"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:107
+msgid "minute"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:107
+msgid "minutes"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:108
+msgid "second"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:108
+#: eclat-shortcode/includes/functions.php:141
+msgid "seconds"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:125
+msgid "sometime"
+msgstr ""
+
+#: eclat-shortcode/includes/functions.php:144
+msgid " ago"
+msgstr ""

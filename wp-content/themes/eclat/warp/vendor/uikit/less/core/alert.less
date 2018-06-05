@@ -1,0 +1,284 @@
+// Name:            Alert
+// Description:     Defines styles for alert messages
+//
+// Component:       `uk-alert`
+//
+// Sub-objects:     `uk-alert-close`
+//
+// Modifiers:       `uk-alert-success`
+//                  `uk-alert-warning`
+//                  `uk-alert-danger`
+//                  `uk-alert-large`
+//
+// Uses:            Close: `uk-close`
+//
+// Markup:
+//
+// <!-- uk-alert -->
+// <div class="uk-alert" data-uk-alert>
+//     <a href="#" class="uk-alert-close uk-close"></a>
+//     <p></p>
+// </div>
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@alert-margin-vertical:                         15px;
+@alert-padding:                                 10px;
+@alert-background:                              #ebf7fd;
+@alert-color:                                   #2d7091;
+
+@alert-success-background:                      #f2fae3;
+@alert-success-color:                           #659f13;
+
+@alert-warning-background:                      #fffceb;
+@alert-warning-color:                           #e28327;
+
+@alert-danger-background:                       #fff1f0;
+@alert-danger-color:                            #d85030;
+
+@alert-large-padding:                           20px;
+
+
+/* ========================================================================
+   Component: Alert
+ ========================================================================== */
+
+.uk-alert {
+    margin-bottom: @alert-margin-vertical;
+    padding: @alert-padding;
+    background: @alert-background;
+    color: @alert-color;
+    position: relative;
+    .hook-alert;
+}
+
+.uk-alert:before {
+    position: absolute;
+    top: 26px;
+    left: 35px;
+    font-size: 39px;
+    font-family: 'eclatico';
+    line-height: 1;
+    content: "\e631";
+    color: @alert-header-color;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.uk-alert h3 {
+    line-height: @base-body-line-height;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: @base-body-font-size;
+}
+
+.uk-alert h3,
+.uk-alert p a {
+    color: @alert-header-color;
+}
+
+/*
+ * Add margin if adjacent element
+ */
+
+* + .uk-alert { margin-top: @alert-margin-vertical; }
+
+/*
+ * Remove margin from the last-child
+ */
+
+.uk-alert > :last-child { margin: 0; }
+
+
+/* Close in alert
+ ========================================================================== */
+
+.uk-alert > .uk-close:first-child { float: right; }
+
+/*
+ * Remove margin from adjacent element
+ */
+
+.uk-alert > .uk-close:first-child + * { margin-top: 0; }
+
+
+/* Modifier: `uk-alert-border`
+ ========================================================================== */
+
+.uk-alert-border {
+    padding-left: 30px;
+    box-sizing: border-box;
+    background: @base-body-background;
+    border: 5px solid @alert-background;
+}
+.uk-alert-border h3 {
+    padding: 5px 0 10px 40px;
+}
+.uk-alert-border:before {
+    left: 25px;
+    top: 20px;
+}
+
+
+/* Modifier: `uk-alert-success`
+ ========================================================================== */
+
+.uk-alert-success {
+    background: @alert-success-background;
+    color: @alert-success-color;
+    .hook-alert-success;
+}
+
+.uk-alert-success:before {
+    content: "\e62e";
+    color: @alert-success-header-color;
+}
+
+.uk-alert-success h3,
+.uk-alert-success p a {
+    color: @alert-success-header-color;
+}
+
+.uk-alert-success.uk-alert-border {
+    background: @base-body-background;
+    border: 5px solid @alert-success-background;
+}
+
+
+/* Modifier: `uk-alert-warning`
+ ========================================================================== */
+
+.uk-alert-warning {
+    background: @alert-warning-background;
+    color: @alert-warning-color;
+    .hook-alert-warning;
+}
+
+.uk-alert-warning:before {
+    content: "\e62f";
+    color: @alert-warning-header-color;
+}
+
+.uk-alert-warning h3,
+.uk-alert-warning p a {
+    color: @alert-warning-header-color;
+}
+
+.uk-alert-warning.uk-alert-border {
+    background: @base-body-background;
+    border: 5px solid @alert-warning-background;
+}
+
+
+/* Modifier: `uk-alert-danger`
+ ========================================================================== */
+
+.uk-alert-danger {
+      background: @alert-danger-background;
+      color: @alert-danger-color;
+      .hook-alert-danger;
+}
+
+.uk-alert-danger:before {
+    content: "\e630";
+    color: @alert-danger-header-color;
+}
+
+.uk-alert-danger h3,
+.uk-alert-danger p a {
+    color: @alert-danger-header-color;
+}
+
+.uk-alert-danger.uk-alert-border {
+    background: @base-body-background;
+    border: 5px solid @alert-danger-background;
+}
+
+
+/* Modifier: `uk-alert-no-icon`
+ ========================================================================== */
+
+.uk-alert-no-icon {
+    padding-left: 30px;
+}
+
+.uk-alert-no-icon:before {
+    display: none;
+}
+
+/* Modifier: `uk-alert-inline`
+ ========================================================================== */
+
+.uk-alert-inline:not(.uk-alert-border):before {
+    top: 16px;
+}
+
+.uk-alert-inline:not(.uk-alert-border) h3 {
+    display: inline;
+    padding: 0 15px 0 0;
+}
+
+.uk-alert-inline:not(.uk-alert-border) p {
+    display: inline;
+}
+
+/* Modifier: `uk-alert-small`
+ ========================================================================== */
+
+.uk-alert-small { padding: @alert-small-padding; }
+
+.uk-alert-small:before {
+    font-size: 35px;
+    top: 9px;
+    left: 12px;
+}
+
+.uk-alert-small.uk-alert-inline:not(.uk-alert-border):before {
+    top: 9px;
+}
+.uk-alert-small.uk-alert-no-icon,
+.uk-alert-small.uk-alert-border{
+    padding-left: 20px;
+}
+
+@media (max-width: @breakpoint-small-max) {
+
+    .uk-alert { padding: @alert-small-padding; }
+
+    .uk-alert:before,
+    .uk-alert-inline:not(.uk-alert-border):before,
+    .uk-alert-small:before {
+        font-size: 35px;
+        top: 9px;
+        left: 12px;
+    }
+
+    .uk-alert-no-icon,
+    .uk-alert-border {
+        padding-left: 20px;
+    }
+
+    .uk-alert-border:before{
+        left: 15px;
+        top: 12px;
+    }
+}
+
+
+// Hooks
+// ========================================================================
+
+.hook-alert-misc;
+
+.hook-alert() {}
+.hook-alert-success() {}
+.hook-alert-warning() {}
+.hook-alert-danger() {}
+.hook-alert-misc() {}

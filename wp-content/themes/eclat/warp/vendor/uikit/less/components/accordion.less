@@ -1,0 +1,194 @@
+// Name:            Accordion
+// Description:     Defines styles for the accordion
+//
+// Component:       `uk-accordion`
+//
+// Sub-objects:     `uk-accordion-title`
+//                  `uk-accordion-content`
+//
+// Markup:
+//
+// <!-- uk-accordion -->
+// <div class="uk-accordion" data-uk-accordion>
+//     <h3 class="uk-accordion-title"></h3>
+//     <div class="uk-accordion-content">
+//         <p></p>
+//     </div>
+// </div>
+//
+// ========================================================================
+
+
+// Variables
+// ========================================================================
+
+@accordion-title-margin-bottom:                 15px;
+@accordion-title-padding-vertical:              5px;
+@accordion-title-padding-horizontal:            15px;
+@accordion-title-font-size:                     18px;
+@accordion-title-line-height:                   24px;
+@accordion-title-background:                    #eee;
+@accordion-title-color: #1a1a1a;
+@accordion-title-color-active: #1a1a1a;
+@accordion-title-background: #ffffff;
+@accordion-title-background-active: #ffffff;
+@accordion-title-border: #d9d9d9;
+@accordion-title-border-active: #f0f0f0;
+@accordion-title-icon-color: #1a1a1a;
+@accordion-title-icon-background: #f0f0f0;
+
+@accordion-grey-title-color: #1a1a1a;
+@accordion-grey-title-color-active: #ffffff;
+@accordion-grey-title-background: #f0f0f0;
+@accordion-grey-title-background-active: #333333;
+@accordion-grey-title-border: #f0f0f0;
+@accordion-grey-title-border-active: #333333;
+@accordion-grey-title-icon-color: #1a1a1a;
+@accordion-grey-title-icon-background: #ffffff;
+
+@accordion-content-padding-horizontal:          @accordion-title-padding-horizontal;
+@accordion-content-padding-bottom:              @accordion-title-padding-horizontal;
+
+
+/* ========================================================================
+   Component: Accordion
+ ========================================================================== */
+
+.uk-accordion {
+    margin: @global-margin 0;
+
+    .hook-accordion;
+}
+
+/* Sub-object: `uk-accordion-title`
+ ========================================================================== */
+
+.uk-accordion-title {
+    margin-top: -1px;
+    box-sizing: border-box;
+    margin-bottom: @accordion-title-margin-bottom;
+    padding: @accordion-title-padding-vertical @accordion-title-padding-horizontal+22 @accordion-title-padding-vertical @accordion-title-padding-horizontal;
+    background: @accordion-title-background;
+    font-size: @accordion-title-font-size;
+    line-height: @accordion-title-line-height;
+    border: 1px solid @accordion-title-border;
+    color: @accordion-title-color;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    .hook-accordion-title;
+}
+
+.uk-accordion-title:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid @accordion-title-border-active;
+    opacity: 0;
+    box-sizing: border-box;
+    content: "";
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.uk-accordion-title.uk-active:before,
+.uk-accordion-title:hover:before { opacity: 1; }
+
+.uk-accordion-title:after {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32;
+    line-height: 32px;
+    font-size: 19px;
+    color: @accordion-title-icon-color;
+    background: @accordion-title-icon-background;
+    text-align: center;
+    font-family: 'eclatico';
+    content: "\e634";
+}
+
+.uk-accordion-title.uk-active:after { content: "\e61b"; }
+
+.uk-accordion-title.uk-active,
+.uk-accordion-title:hover {
+    color: @accordion-title-color-active;
+    background: @accordion-title-background-active;
+    border-color: @accordion-title-border-active;
+}
+
+.uk-accordion.uk-accordion-round .uk-accordion-title:after {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.uk-accordion.uk-accordion-primary .uk-accordion-title {
+    margin-top: 1px;
+    background: @accordion-grey-title-background;
+    border: 1px solid @accordion-grey-title-border;
+    color: @accordion-grey-title-color;
+}
+
+.uk-accordion.uk-accordion-primary .uk-accordion-title:before { border-color: @accordion-grey-title-border }
+
+.uk-accordion.uk-accordion-primary .uk-accordion-title:hover:before,
+.uk-accordion.uk-accordion-primary .uk-accordion-title.uk-active:before { border-color: @accordion-grey-title-border-active }
+
+.uk-accordion.uk-accordion-primary .uk-accordion-title:after {
+    background: @accordion-grey-title-icon-background;
+    color: @accordion-grey-title-icon-color;
+}
+
+.uk-accordion.uk-accordion-primary .uk-accordion-title.uk-active,
+.uk-accordion.uk-accordion-primary .uk-accordion-title:hover {
+    color: @accordion-grey-title-color-active;
+    background: @accordion-grey-title-background-active;
+    border-color: @accordion-grey-title-border-active;
+}
+
+
+/* Sub-object: `uk-accordion-content`
+ ========================================================================== */
+
+.uk-accordion-content {
+    padding: @accordion-content-padding-horizontal @accordion-content-padding-bottom;
+    .hook-accordion-content;
+}
+
+/*
+ * Micro clearfix to make panels more robust
+ */
+
+.uk-accordion-content:before,
+.uk-accordion-content:after {
+    content: "";
+    display: table;
+}
+
+.uk-accordion-content:after { clear: both; }
+
+/*
+ * Remove margin from the last-child
+ */
+
+ .uk-accordion-content > :last-child { margin-bottom: 0; }
+
+
+// Hooks
+// ========================================================================
+
+.hook-accordion-misc;
+
+.hook-accordion() {}
+.hook-accordion-title() {}
+.hook-accordion-content() {}
+.hook-accordion-misc() {}

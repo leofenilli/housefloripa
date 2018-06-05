@@ -1,0 +1,1022 @@
+{
+	"srcset_image": "1",
+	"dynamic_style": "1",
+	"compression": "0",
+	"multicolumns": "1",
+	"multicolumns_full": "3",
+	"multicolumns_sidebars": "1",
+	"multicolumns_order": "1",
+	"wpautop": "1",
+	"post_nav": "1",
+	"site_offline": "0",
+	"site_offline_end_time": "2017/01/01 05:59",
+	"site_offline_message": "<h1>We are coming soon</h1>\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>",
+	"woo_posts_per_page": "12",
+	"woo_password_strength_enabled": "1",
+	"woo_product_badge_new_days": "30",
+	"woo_category_name_list_enabled": "1",
+	"woo_product_wishlist_page_id": "0",
+	"woo_product_compare_page_id": "0",
+	"page_loader": "0",
+	"panel_default": {
+		"top-a": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"top-b": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"bottom-a": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"bottom-b": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"main-top": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"main-bottom": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"sidebar-a": {
+			"panel": "uk-panel uk-panel-box"
+		},
+		"sidebar-b": {
+			"panel": "uk-panel uk-panel-box"
+		}
+	},
+	"layouts": {
+		"default": {
+			"style": "default",
+			"eclat_footer_bg": "0",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "left"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			}
+		},
+		"full-width": {
+			"style": "default",
+			"eclat_footer_bg": "0",
+			"page_title": "0",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			},
+			"assignment": {
+				"0": "front_page",
+				"1": "page-34"
+			}
+		},
+		"full-width-with-title": {
+			"style": "default",
+			"eclat_footer_bg": "0",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			}
+		},
+		"left-blog-sidebar": {
+			"style": "default",
+			"eclat_footer_bg": "0",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "left"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "left"
+				}
+			},
+			"grid": {
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				}
+			}
+		}
+	},
+	"widgets": {
+		"text-2": {
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_login-6": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"icl_lang_sel_widget-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_cart-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"rev-slider-widget-2": {
+			"assignment": {
+				"0": "",
+				"1": "front_page",
+				"2": "page-34"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"rev-slider-widget-3": {
+			"assignment": {
+				"0": ""
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_breadcrumbs-2": {
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"text-5": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "footer-logo",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"nav_menu-4": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"text-6": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_categories-2": {
+			"title": "1",
+			"assignment": {
+				"0": ""
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"woocommerce_layered_nav-3": {
+			"title": "1",
+			"assignment": {
+				"0": ""
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_leyered_nav-3": {
+			"title": "1",
+			"assignment": {
+				"0": ""
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_brands-2": {
+			"title": "1",
+			"assignment": {
+				"0": ""
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"woocommerce_price_filter-2": {
+			"title": "1",
+			"assignment": {
+				"0": ""
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"woocommerce_products-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "page-6"
+			},
+			"class": "",
+			"panel": "uk-panel uk-panel-header",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"search-3": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "search",
+				"2": "home",
+				"3": "single",
+				"4": "archive"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"categories-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "search",
+				"2": "home",
+				"3": "single",
+				"4": "archive"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"tag_cloud-3": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "search",
+				"2": "home",
+				"3": "single",
+				"4": "archive"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"calendar-2": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "search",
+				"2": "home",
+				"3": "single",
+				"4": "archive"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"recent-posts-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "search",
+				"2": "home",
+				"3": "single",
+				"4": "archive"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"recent-comments-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "search",
+				"2": "home",
+				"3": "single",
+				"4": "archive"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"text-7": {
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"nav_menu-5": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"nav_menu-2": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_login-7": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"text-11": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"text-12": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"nav_menu-6": {
+			"title": "0",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "0",
+				"medium": "0",
+				"small": "0"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_categories-3": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"woocommerce_layered_nav-4": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_leyered_nav-5": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"warp_woocommerce_brands-3": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"woocommerce_price_filter-3": {
+			"title": "1",
+			"assignment": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"text-9": {
+			"title": "1",
+			"assignment": {
+				"0": ""
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		},
+		"text-10": {
+			"title": "1",
+			"assignment": {
+				"0": ""
+			},
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			},
+			"assignment_styles": {
+				"0": "",
+				"1": "*"
+			}
+		}
+	},
+	"menus": {
+		"58": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"59": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"60": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"61": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"63": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"437": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-facebook",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"439": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-google-plus",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"467": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-instagram",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"468": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "uk-icon-pinterest-p",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1041": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1307": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1308": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1309": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1460": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1461": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1462": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1463": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1565": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1566": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1567": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1568": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		},
+		"1593": {
+			"columns": "1",
+			"columnwidth": "",
+			"icon": "",
+			"hide_link": "no",
+			"subtitle": ""
+		}
+	}
+}

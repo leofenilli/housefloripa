@@ -1,0 +1,473 @@
+/* Copyright (C) Elartica Team, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+}
+
+/*woocommerce pass input style*/
+.woocommerce-password-strength,
+.woocommerce-password-hint { display: none }
+
+/*dropdown navbar img link style*/
+.uk-dropdown-navbar a.menu-item-777 img { margin-bottom: -35px }
+
+/*required classes*/
+.sticky {}
+.screen-reader-text {}
+.gallery-caption {}
+.bypostauthor {}
+
+/*slider*/
+.main-slider { overflow: hidden; }
+
+.tp-caption a {
+    color:#fff;
+    position: relative;
+    text-shadow:none;
+    text-decoration: none;
+    -webkit-transition:all 0.2s ease-out;
+    -moz-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    -ms-transition:all 0.2s ease-out;
+}
+
+.tp-caption a:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+.tp-caption a span {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 0 10px;
+    -webkit-transition:all 0.2s ease-out;
+    -moz-transition:all 0.2s ease-out;
+    -o-transition:all 0.2s ease-out;
+    -ms-transition:all 0.2s ease-out;
+    transition:all 0.2s ease-out;
+}
+
+@media (max-width: 768px) {
+    .tp-caption a span { display: none !important; }
+}
+
+.tp-caption a span:before,
+.tp-caption a span:after {
+    font-family: 'eclatico';
+    content: "\e608";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: inherit;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    -webkit-transition: 0.35s 0s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 0.35s 0s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.tp-caption a span:after {
+    -webkit-transform: translateX(-150%) translateZ(0);
+    -ms-transform: translateX(-150%) translateZ(0);
+    transform: translateX(-150%) translateZ(0);
+}
+
+.tp-caption a:hover span:before {
+    -webkit-transform: translateX(100%) translateZ(0);
+    -ms-transform: translateX(100%) translateZ(0);
+    transform: translateX(100%) translateZ(0);
+}
+
+.tp-caption a:hover span:after {
+    -webkit-transform: translateX(0) translateZ(0);
+    -ms-transform: translateX(0) translateZ(0);
+    transform: translateX(0) translateZ(0);
+}
+
+.tp-caption.whitesubtitlesmall a {
+    padding: 15px 30px;
+    display: block;
+    white-space: nowrap;
+    font-size: 22px;
+    border: 3px solid rgba(255,255,255,0.3);
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease !important;
+    -o-transition: all 0.5s ease !important;
+    -webkit-transition: all 0.5s ease !important;
+}
+
+.tp-caption.whitesubtitlesmall a span{
+    font-size: 18px;
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    line-height: 20px;
+}
+
+.tp-caption.whitesubtitlesmall a:hover { border: 3px solid rgba(255,255,255,0,8); }
+
+.custom.tparrows,
+.custom.tparrows:hover {
+    background: none !important;
+    opacity: 0;
+    transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease
+}
+
+.tparrows::before {
+    font-family: 'eclatico', sans-serif !important;
+    font-size: 30px !important;
+}
+
+.custom.tparrows.tp-leftarrow:before { content: "\e612" !important; }
+
+.custom.tparrows.tp-rightarrow:before { content: "\e611" !important; }
+
+.custom.tparrows.tp-leftarrow {
+    -webkit-transform: matrix(1, 0, 0, 1, -100, -20) !important;
+    transform: matrix(1, 0, 0, 1, -100, -20) !important;
+}
+
+.custom.tparrows.tp-rightarrow {
+    -webkit-transform: matrix(1, 0, 0, 1, 100, -20) !important;
+    transform: matrix(1, 0, 0, 1, 100, -20) !important;
+}
+
+.tp-mouseover .custom.tparrows { opacity: 0.5 }
+
+.tp-mouseover .custom.tparrows.tp-leftarrow {
+    -webkit-transform: matrix(1, 0, 0, 1, 20, -20) !important;
+    transform: matrix(1, 0, 0, 1, 20, -20) !important;
+}
+.tp-mouseover .custom.tparrows.tp-rightarrow {
+    -webkit-transform: matrix(1, 0, 0, 1, -60, -20) !important;
+    transform: matrix(1, 0, 0, 1, -60, -20) !important;
+}
+
+.tp-mouseover .custom.tparrows:hover { opacity: 1 }
+
+.tp-bannertimer { background: rgba(255,255,255,0.3) !important }
+
+.tp-bullets.horizontal .tp-bullet {
+    background: rgba(255,255,255,0.5);
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease
+}
+
+.tp-bullets.horizontal .tp-bullet.selected,
+.tp-bullets.horizontal .tp-bullet:hover { background: rgba(255,255,255,1); }
+
+/*parallax*/
+.vc_parallax .vc_parallax-inner { background-position: 50% 50% !important }
+
+.vc_row { margin-bottom: 35px }
+
+.vc_row.vc_inner { margin-bottom: 0 }
+
+.vc_row > *,
+.vc_row > .vc_column_container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.vc_row.vc_row-no-padding > * {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li { margin-bottom: 0 }
+
+.vc_column_container > .vc_column-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.clear { clear: both }
+
+/*Images Caption*/
+.wp-caption  {
+    position: relative;
+}
+
+.wp-caption.aligncenter {
+    width: 100% !important;
+}
+
+.wp-caption p.wp-caption-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.3);
+    margin: 0;
+}
+
+
+/*
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* display none until init */
+.owl-carousel{
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+    -webkit-transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item{
+    float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+    cursor: pointer;
+}
+.owl-controls {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+    cursor:url(../images/grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    hidden;
+    -ms-backface-visibility:     hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+
+/*
+ *  Owl Carousel CSS3 Transitions
+ *  v1.3.2
+ */
+
+.owl-origin {
+    -webkit-perspective: 1200px;
+    -webkit-perspective-origin-x : 50%;
+    -webkit-perspective-origin-y : 50%;
+    -moz-perspective : 1200px;
+    -moz-perspective-origin-x : 50%;
+    -moz-perspective-origin-y : 50%;
+    perspective : 1200px;
+}
+/* fade */
+.owl-fade-out {
+    z-index: 10;
+    -webkit-animation: fadeOut .7s both ease;
+    -moz-animation: fadeOut .7s both ease;
+    animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+    -webkit-animation: fadeIn .7s both ease;
+    -moz-animation: fadeIn .7s both ease;
+    animation: fadeIn .7s both ease;
+}
+/* backSlide */
+.owl-backSlide-out {
+    -webkit-animation: backSlideOut 1s both ease;
+    -moz-animation: backSlideOut 1s both ease;
+    animation: backSlideOut 1s both ease;
+}
+.owl-backSlide-in {
+    -webkit-animation: backSlideIn 1s both ease;
+    -moz-animation: backSlideIn 1s both ease;
+    animation: backSlideIn 1s both ease;
+}
+/* goDown */
+.owl-goDown-out {
+    -webkit-animation: scaleToFade .7s ease both;
+    -moz-animation: scaleToFade .7s ease both;
+    animation: scaleToFade .7s ease both;
+}
+.owl-goDown-in {
+    -webkit-animation: goDown .6s ease both;
+    -moz-animation: goDown .6s ease both;
+    animation: goDown .6s ease both;
+}
+/* scaleUp */
+.owl-fadeUp-in {
+    -webkit-animation: scaleUpFrom .5s ease both;
+    -moz-animation: scaleUpFrom .5s ease both;
+    animation: scaleUpFrom .5s ease both;
+}
+
+.owl-fadeUp-out {
+    -webkit-animation: scaleUpTo .5s ease both;
+    -moz-animation: scaleUpTo .5s ease both;
+    animation: scaleUpTo .5s ease both;
+}
+/* Keyframes */
+/*empty*/
+@-webkit-keyframes empty {
+    0% {opacity: 1}
+}
+@-moz-keyframes empty {
+    0% {opacity: 1}
+}
+@keyframes empty {
+    0% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+@keyframes fadeIn {
+    0% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadeOut {
+    0% { opacity:1; }
+    100% { opacity:0; }
+}
+@-moz-keyframes fadeOut {
+    0% { opacity:1; }
+    100% { opacity:0; }
+}
+@keyframes fadeOut {
+    0% { opacity:1; }
+    100% { opacity:0; }
+}
+@-webkit-keyframes backSlideOut {
+    25% { opacity: .5; -webkit-transform: translateZ(-500px); }
+    75% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+    100% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+}
+@-moz-keyframes backSlideOut {
+    25% { opacity: .5; -moz-transform: translateZ(-500px); }
+    75% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+    100% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+}
+@keyframes backSlideOut {
+    25% { opacity: .5; transform: translateZ(-500px); }
+    75% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+    100% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+}
+@-webkit-keyframes backSlideIn {
+    0%, 25% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(200%); }
+    75% { opacity: .5; -webkit-transform: translateZ(-500px); }
+    100% { opacity: 1; -webkit-transform: translateZ(0) translateX(0); }
+}
+@-moz-keyframes backSlideIn {
+    0%, 25% { opacity: .5; -moz-transform: translateZ(-500px) translateX(200%); }
+    75% { opacity: .5; -moz-transform: translateZ(-500px); }
+    100% { opacity: 1; -moz-transform: translateZ(0) translateX(0); }
+}
+@keyframes backSlideIn {
+    0%, 25% { opacity: .5; transform: translateZ(-500px) translateX(200%); }
+    75% { opacity: .5; transform: translateZ(-500px); }
+    100% { opacity: 1; transform: translateZ(0) translateX(0); }
+}
+@-webkit-keyframes scaleToFade {
+    to { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleToFade {
+    to { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleToFade {
+    to { opacity: 0; transform: scale(.8); }
+}
+@-webkit-keyframes goDown {
+    from { -webkit-transform: translateY(-100%); }
+}
+@-moz-keyframes goDown {
+    from { -moz-transform: translateY(-100%); }
+}
+@keyframes goDown {
+    from { transform: translateY(-100%); }
+}
+
+@-webkit-keyframes scaleUpFrom {
+    from { opacity: 0; -webkit-transform: scale(1.5); }
+}
+@-moz-keyframes scaleUpFrom {
+    from { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpFrom {
+    from { opacity: 0; transform: scale(1.5); }
+}
+
+@-webkit-keyframes scaleUpTo {
+    to { opacity: 0; -webkit-transform: scale(1.5); }
+}
+@-moz-keyframes scaleUpTo {
+    to { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpTo {
+    to { opacity: 0; transform: scale(1.5); }
+}
+
+

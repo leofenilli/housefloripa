@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>Eclat</name>
+	<version>1.0.6</version>
+	<creationDate>05.05.2015</creationDate>
+	<author>Elartica Team</author>
+	<authorEmail>info@elartica.com</authorEmail>
+	<authorUrl>http://www.elartica.com</authorUrl>
+    <copyright>Copyright (C) Elartica Team</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<description>Eclat - Responsive Multipurpose WordPress Theme. It is based on YOOtheme's Warp theme framework.</description>
+    <positions>
+        <position settings="assignment">search</position>
+        <position settings="assignment">logo</position>
+        <position settings="title assignment">menu</position>
+        <position>toolbar-l</position>
+        <position>toolbar-r</position>
+        <position settings="assignment assignment_styles">slider</position>
+        <position settings="assignment">breadcrumbs</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>tweets</position>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position settings="assignment">product-sidebar</position>
+        <position settings="assignment">footer</position>
+        <position settings="title assignment">social</position>
+        <position settings="title assignment">offcanvas</position>
+        <position>offcanvas-login</position>
+        <position>offcanvas-nav</position>
+        <position settings="title assignment">offcanvas-filter</position>
+        <position>custom-modal</position>
+        <position>debug</position>
+    </positions>
+</theme>
